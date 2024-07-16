@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 
 # Generating sample data
 
@@ -58,5 +59,25 @@ X_pred = pd.DataFrame(
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
+
 # Initialize the linear regression model
 model = LinearRegression()
+
+model.fit(X_train[["Measure"]], y_train)
+
+y_train_pred = model.predict(X_train[["Measure"]])
+
+y_intercept = model.intercept_
+coefficient = model.coef_
+
+plt.figure(figsize=(10, 6))
+plt.scatter(X_train["Measure"], y_train, color="blue", label="Actual")
+plt.plot(X_train["Measure"], y_train_pred, color="red", linewidth=2, label="Predicted")
+plt.title("Linear Regression: Actual vs Predicted Sales")
+plt.xlabel("Measure")
+plt.ylabel("Sales")
+plt.legend()
+plt.grid(True)
+plt.show()
+
+print(f"Y_Intercept, coefficients are {y_intercept, coefficient }")
