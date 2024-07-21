@@ -114,3 +114,16 @@ plt.ylabel("Sales")
 plt.legend()
 plt.grid(True)
 plt.show()
+
+# Trying it for test data
+X_test_pred = model.predict(X_test[["Measure"]])
+
+plt.figure(figsize=(10, 6))
+plt.plot(y_test.values, label="Actual Sales", color="blue", linewidth=3)
+plt.plot(X_test_pred, label="Predicted Sales", color="red", linewidth=3)
+plt.title("Actual Sales vs Predicted Sales")
+plt.xlabel("Index")
+plt.ylabel("Sales")
+plt.legend()
+plt.grid(True)
+plt.show()
