@@ -1,3 +1,21 @@
+# Code written using Python 3.12.2
+# -*- coding: utf-8 -*-
+
+"""
+Module Name: Linear_Regression.py
+Description: This module implements a linear regression analysis to predict sales based on synthetic data generated over 100 days. 
+It creates a dataset with random tactics and measures, splits the data into training and testing sets, and trains a linear regression 
+model using the "Measure" feature. The model's performance is evaluated using metrics such as Mean Squared Error (MSE), 
+Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and R-squared (R²). 
+Visualization plots are included to compare actual and predicted sales, along with error analysis for each prediction.
+"""
+
+__author__ = "Vivek Sirwal"
+__email__ = "viveksirwal@gmail.com"
+__date__ = "2024-10-28"
+__version__ = "1.0.5"
+__status__ = "Production"
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
