@@ -1,0 +1,57 @@
+Types of Machine Learning Algorithms
+There are four types of machine learning algorithms
+
+1. Supervised Learning:
+  A. Classification
+      --Logistic Regression
+      --Support Vector Machines (SVM)
+      --k-Nearest Neighbors (k-NN)
+      --Naive Bayes
+      --Decision Trees
+      --Random Forest
+      --Gradient Boosting (e.g., XGBoost, LightGBM, CatBoost, AdaBoost)
+      --Neural Networks (e.g., Multilayer Perceptron)
+  B. Regression
+     --Linear Regression
+     --Ridge Regression(L2 Regularization)
+     --Lasso Regression(L1 Regularization)
+     --Support Vector Regression (SVR)
+     --Decision Trees Regression
+     --Random Forest Regression
+     --Gradient Boosting Regression (e.g., XGBoost, LightGBM, CatBoost, AdaBoost)
+     --Neural Networks Regression (e.g., Multilayer Perceptron)
+
+2. Unsupervised Learning
+  A. Clustering
+     --k-Means
+     --Hierarchical Clustering
+     --DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+     --Gaussian Mixture Models (GMM)
+  B. Dimensionality Reduction
+     --Principal Component Analysis (PCA)
+     --t-Distributed Stochastic Neighbor Embedding (t-SNE)
+     --Linear Discriminant Analysis (LDA)
+     --Independent Component Analysis (ICA)
+     --UMAP (Uniform Manifold Approximation and Projection)
+  C. Association
+     --Apriori Algorithm
+     --Eclat Algorithm
+
+3. Reinforcement Learning
+  A. Model-Free Methods
+     --Q-Learning
+     --Deep Q-Network (DQN)
+     --SARSA (State-Action-Reward-State-Action)
+     --Policy Gradient Methods (e.g., REINFORCE)
+  B. Model-Based Methods
+     --Deep Deterministic Policy Gradient (DDPG)
+     --Proximal Policy Optimization (PPO)
+     --Trust Region Policy Optimization (TRPO)
+  C. Value-Based Methods
+     --Monte Carlo Methods
+     --Temporal Difference (TD) Learning
+
+4. Ensemble Learning
+     --Bagging (e.g., Random Forest)
+     --Boosting (e.g., AdaBoost, Gradient Boosting)
+     --Stacking
