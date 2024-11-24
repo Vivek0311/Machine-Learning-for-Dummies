@@ -56,7 +56,7 @@ print(f"mean mse using crossvalscore using linear regression:{mean_mse}")
 
 
 #######################################
-#          Ridge Regression           #
+#         Ridge Regression(L2)        #
 #######################################
 
 from sklearn.linear_model import Ridge
@@ -83,7 +83,7 @@ mse has reduced to -32 which is good"""
 
 
 #######################################
-#          Lasso Regression           #
+#        Lasso Regression(L1)         #
 #######################################
 
 from sklearn.linear_model import Lasso
